@@ -1,10 +1,10 @@
 import os
 from dotenv import load_dotenv
 
-   # Загружаем переменные из файла .env
-load_dotenv()
+# Загружаем переменные из .env файла
+load_dotenv("secrets.env")
 
-   # Получаем значение токена
+# Получаем значение токена
 token = os.getenv('BOT_TOKEN')
 
-print(f"Your secret token is: {token}")   
+print(f"Your secret token is: {token}")

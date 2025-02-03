@@ -1,0 +1,7 @@
+python-dateutil
+pytz
+icalendar
+schedule
+dateparser
+python-telegram-bot
+python-dotenv
